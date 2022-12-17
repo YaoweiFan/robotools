@@ -133,7 +133,7 @@ if __name__ == '__main__':
     # 保存数据
     dataframe = pd.DataFrame({'Px': Px, 'Py': Py, 'Pz': Pz, 'Qx': Qx, 'Qy': Qy, 'Qz': Qz})
     # dataframe.to_csv("../data/trajectory.csv")
-    dataframe.to_csv("../data/rod_trajectory.csv")
+    # dataframe.to_csv("../data/rod_trajectory.csv")
 
     # 绘制图形
     plot_env(ax)
